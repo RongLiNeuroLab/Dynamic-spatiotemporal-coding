@@ -17,7 +17,7 @@ from sklearn.metrics import r2_score
 from sklearn.metrics import mean_absolute_error
 
 
-df_age_features = pd.read_excel(r'E:\Scientific work\Work2\State coding\Brain age prediction.xlsx')
+df_age_features = pd.read_excel(r'Brain age prediction.xlsx')
 features,scores = df_age_features.iloc[:,:-1].values,df_age_features.iloc[:,-1].values
 
 #Predict the age with ten-fold validation
