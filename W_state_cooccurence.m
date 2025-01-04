@@ -1,4 +1,4 @@
-function [dynamic_r,stable_r] = W_state_cooccurence(mat,flag)
+function [stable_r,dynamic_r] = W_state_cooccurence(mat,flag)
 % mat:states*roi
 % flag: 0-return a matrix; 1-return a vactor
 
